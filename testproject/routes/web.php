@@ -23,3 +23,6 @@ Route::get('/about', function () {
 Route::get('/RegistrationForm', function () {
     return view('RegistrationForm');
 });
+Route::get('/p1', function () {
+    return view('p1');
+});
